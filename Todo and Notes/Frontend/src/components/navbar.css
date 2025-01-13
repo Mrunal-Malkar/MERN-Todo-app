@@ -1,0 +1,10 @@
+/* @media screen and (max-width: 768px) {
+  nav {
+    dirgin-top:0px;
+  }
+} */
+@media screen and (min-width: 768px) and (max-width:1800px){
+  i {
+    display: none;
+  }
+}

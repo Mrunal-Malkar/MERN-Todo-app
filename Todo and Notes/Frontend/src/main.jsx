@@ -6,10 +6,12 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <StrictMode>
-    <Routes>
-    <Route path='/' element={<App/>} />
-    </Routes>
-  </StrictMode>
+   <App/>
   </BrowserRouter>,
+)
+
+createRoot(document.getElementById("navbardiv")).render(
+  <BrowserRouter>
+  <Navbar />
+  </BrowserRouter>
 )
